@@ -1,0 +1,108 @@
+@import "./_base"
+
+// -----CONTAINER-----
+.container
+	width: 100%
+	max-width: 1750px
+	padding: 0 15px
+	margin: 0 auto
+
+	+r(1200)
+		max-width: 1130px
+
+	+r(992)
+		max-width: 768px
+
+	+r(767)
+		max-width: 576px
+
+	+r(576)
+		max-width: 480px
+
+
+.header
+	padding: 20px
+	z-index: 1000
+	margin-bottom: 25px
+
+	+r(1440)
+		padding: 15px
+
+	+r(767)
+		margin-bottom: 10px
+
+	&__container
+		display: flex
+		align-items: center
+		justify-content: center
+		gap: 50px
+
+		+r(767)
+			max-width: 100%
+			gap: 25px
+
+		+r(576)
+			gap: 15px
+
+		+r(480)
+			flex-direction: column
+			gap: 5px
+
+	&__logo
+		display: block
+		width: 175px
+		height: auto
+
+		+r(1440)
+			width: 150px
+
+		+r(480)
+			width: 100px
+
+		img
+			width: 100%
+			height: auto
+
+	&__title
+		text-transform: uppercase
+		font-size: 60px
+		line-height: 60px
+		margin-bottom: 25px
+
+		+r(1440)
+			font-size: 48px
+			line-height: 48px
+
+		+r(1200)
+			font-size: 36px
+			line-height: 36px
+
+		+r(767)
+			font-size: 28px
+			line-height: 28px
+			margin-bottom: 15px
+
+		+r(480)
+			text-align: center
+			margin-bottom: 20px
+
+	&__subtitle
+		font-family: $font2
+		font-weight: 200
+		font-size: 26px
+		padding-left: 10px
+
+		+r(1440)
+			font-size: 22px
+
+		+r(1200)
+			font-size: 16px
+			line-height: 16px
+
+		+r(767)
+			font-size: 14px
+			line-height: 14px
+
+		+r(480)
+			text-align: center
+
