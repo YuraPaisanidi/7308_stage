@@ -10,7 +10,7 @@ const stageTl = gsap.timeline()
 	.to('.stage__wrap', { y: -350, duration: 1, ease: 'sine.out' }, '>-15%')
 	.to('.stage__wrap', { y: -1400, duration: 3, ease: 'sine.out' })
 	.to('.stage__wrap', { y: -2500, duration: 4, ease: 'sine.out' })
-	.to('.stage__bg', { height: '100vh', borderRadius: 0, duration: 1 }, '<')
+	.to('.stage__bg', { height: '100vh', borderRadius: 0, duration: 2 }, '<')
 // .to('#elem2', { y: 0, opacity: 1, duration: 2, ease: 'none' })
 // .to('#elem1', { y: '-100%', opacity: 0, duration: 2, ease: 'none' }, '<+30%')
 
