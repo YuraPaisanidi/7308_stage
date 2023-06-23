@@ -3,7 +3,7 @@ import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger)
 
-// gsap.set('#elem2', { y: '100%', opacity: 0 })
+gsap.set('svg', { opacity: 1 })
 
 const stageTl = gsap.timeline()
 	.from('#elem2', { y: '100%', opacity: 0, duration: 1, ease: 'sine.out' })
