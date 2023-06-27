@@ -12,6 +12,12 @@ import gsap from "gsap"
  */
 let svgContent = require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem1.svg")
 require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem2.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem3.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem4.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem5.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem6.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem7.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/sidebar.svg")
 // console.log(svgContent);
 
 require('./app')
