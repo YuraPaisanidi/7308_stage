@@ -18,6 +18,7 @@ require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&cl
 require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem6.svg")
 require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/elem7.svg")
 require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/sidebar.svg")
+require("!!svg-anim-loader?outImageUrl=./assets/img/&needContent=false&par=''&class=''!./img/analytics.svg")
 // console.log(svgContent);
 
 require('./app')
